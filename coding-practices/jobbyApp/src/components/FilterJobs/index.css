@@ -1,0 +1,36 @@
+.filter-container {
+  padding: 0px;
+  width: 270px;
+  margin-right: 25px;
+}
+
+.break-line {
+  border: 0.8px solid #64748b;
+  margin-top: 20px;
+}
+.employees-types-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.employee-types-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.employee-types-label {
+  color: #f1f5f9;
+  font-size: 15px;
+  margin-left: 10px;
+}
+li {
+  padding: 0px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-container {
+    padding: 15px;
+    max-width: 350px;
+  }
+}

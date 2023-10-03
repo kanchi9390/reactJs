@@ -1,0 +1,27 @@
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  padding: 5%;
+}
+.image {
+  border: solid 0px;
+  border-radius: 10px;
+  width: 95%;
+  height: 70%;
+}
+.heading {
+  color: #1e293b;
+  font-size: 22px;
+}
+.photographer {
+  color: #64748b;
+  font-size: 17px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+}

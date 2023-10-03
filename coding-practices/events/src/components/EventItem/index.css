@@ -1,0 +1,19 @@
+.event-img-btn {
+  background-color: transparent;
+  border: none;
+}
+.event-img {
+  width: 28vw;
+  border-radius: 5px;
+}
+.event-name {
+  color: #f8fafc;
+  font-size: 23px;
+}
+.event-location {
+  color: #f8fafc;
+  font-size: 18px;
+}
+.image-border {
+  border: 1.5px solid #2dd4bf;
+}

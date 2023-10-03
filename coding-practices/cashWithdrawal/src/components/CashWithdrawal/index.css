@@ -1,0 +1,75 @@
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+  height: 100vh;
+}
+
+.bg-card-container {
+  background-color: #150b3e;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 40px;
+  width: 60%;
+  height: 70%;
+  text-align: left;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  padding: 23px;
+  margin-right: 15px;
+  background-color: #c7d2fe;
+  border-style: solid;
+  border-radius: 50px;
+  border-width: 0px;
+  font-size: 17px;
+  height: 55px;
+  align-items: center;
+  display: flex;
+  color: #7c3aed;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.your-balance-h1 {
+  color: #585076;
+  font-weight: 600;
+  font-size: 20px;
+}
+.balance {
+  color: #d4d2db;
+}
+.in-rupees {
+  color: #585076;
+  font-size: 14px;
+}
+.user-name {
+  color: #d4d2db;
+  font-size: 18px;
+}
+.withdraw-h1 {
+  color: #d4d2db;
+  font-size: 24px;
+}
+.withdraw-h2 {
+  color: #585076;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}

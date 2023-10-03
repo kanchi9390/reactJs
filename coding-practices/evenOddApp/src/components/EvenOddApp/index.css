@@ -1,0 +1,35 @@
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.even-odd {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.button {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-weight: 500;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 29px;
+  width: 120px;
+  cursor: pointer;
+  outline: none;
+}
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 13px;
+}

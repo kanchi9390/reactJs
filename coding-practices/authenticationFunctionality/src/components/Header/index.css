@@ -1,0 +1,11 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: flex-start;
+  list-style-type: none;
+  font-family: 'Roboto';
+}
+li {
+  margin-right: 10px;
+}

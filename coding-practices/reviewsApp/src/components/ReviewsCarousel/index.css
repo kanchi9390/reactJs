@@ -1,0 +1,64 @@
+.main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 50px;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85vw;
+  text-align: center;
+}
+.heading {
+  color: #ffffff;
+}
+
+.user-img {
+  height: 15vh;
+  width: 30vw;
+}
+.carousel-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.arrow {
+  height: 15px;
+  width: 15px;
+}
+
+.user-name {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.company-name {
+  color: #171f46;
+  font-weight: 500;
+}
+
+.description {
+  color: #171f46;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-container {
+    width: 60vw;
+  }
+  .user-img {
+    height: 11vh;
+    width: 9vw;
+  }
+}

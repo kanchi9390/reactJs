@@ -1,0 +1,12 @@
+.withdraw-btn {
+  background-color: #382f5a;
+  border-color: #c4c4c4;
+  border-width: 1px;
+  border-style: solid;
+  height: 35px;
+  width: 150px;
+  color: #d4d2db;
+  border-radius: 3px;
+  font-size: 25px;
+  margin: 10px;
+}

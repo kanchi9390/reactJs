@@ -1,0 +1,27 @@
+.destination-item {
+  padding: 5px;
+  text-align: left;
+  margin: 10px;
+}
+.destination-img {
+  border-radius: 7px;
+  background-size: cover;
+  width: 90vw;
+}
+.destination-name {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+@media screen and (min-width: 576px) {
+  .destination-img {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .destination-img {
+    width: 20vw;
+  }
+}

@@ -1,0 +1,33 @@
+.heading {
+  color: #00e7ff;
+}
+
+.crypto-image {
+  width: 90vw;
+  object-fit: cover;
+}
+
+.table-container {
+  list-style-type: none;
+  background-color: transparent;
+  border: 3px solid #00e7ff;
+  border-radius: 6px;
+  width: 60vw;
+  padding: 0px;
+}
+
+.heading-item {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.table-heading {
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 30px;
+  width: 7vw;
+}

@@ -1,0 +1,81 @@
+.main-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1, #defafe);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #1e293b;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 50vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.timer-bg {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 90%;
+}
+.timer {
+  color: #00d9f5;
+  margin: 0px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.timer-status {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0px;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-label {
+  font-weight: bold;
+}
+.timer-set-container {
+  text-align: center;
+}
+.time-card {
+  background-image: linear-gradient(to right, #00d9f5, #cffcf1, #00d9f5);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-position: center;
+}
+
+.timer-limit {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 10px;
+  margin: 0px;
+}
+
+.time-set-btn {
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}

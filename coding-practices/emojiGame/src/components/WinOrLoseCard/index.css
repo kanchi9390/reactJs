@@ -1,0 +1,49 @@
+/* Write your code here. */
+.win-lose-bg {
+  background-color: #ffffff33;
+  border: 0.5px solid #ffffff;
+  border-radius: 23px;
+  margin: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  padding: 5%;
+}
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win-lose-img {
+  height: 60vh;
+}
+.heading {
+  color: #ffffff;
+  font-size: 45px;
+}
+.heading2 {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0px;
+  font-weight: bold;
+}
+.current-score {
+  color: #6a59ff;
+  margin: 5px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.play-again-btn {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  width: 110px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}

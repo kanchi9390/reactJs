@@ -1,0 +1,24 @@
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.events-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #323f4b;
+  padding: 30px;
+  width: 65vw;
+}
+.heading {
+  color: #f8fafc;
+}
+.events-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+}

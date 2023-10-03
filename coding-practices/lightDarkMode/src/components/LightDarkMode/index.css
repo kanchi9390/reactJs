@@ -1,0 +1,47 @@
+.main-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.dark-mode-card {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 20px;
+  border-width: 0px;
+  border-color: #000000;
+}
+.dark-heading {
+  color: #ffffff;
+}
+
+.dark-mode-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  border-width: 1px;
+  color: #000000;
+  border-color: #000000;
+}
+.light-mode-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+.light-heading {
+  color: #000000;
+}
+.light-mode-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  color: #000000;
+  border-width: 1px;
+  border-color: #000000;
+}

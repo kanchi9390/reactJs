@@ -1,0 +1,26 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.dark-not-found-text {
+  color: #dcdcdc;
+}
+
+.light-not-found-text {
+  color: #333333;
+}
+
+.container-img {
+  width: 40vw;
+}
+
+@media screen and (min-width: 768px) {
+  .container-img {
+    width: 18vw;
+  }
+}

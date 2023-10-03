@@ -1,0 +1,18 @@
+.transaction-container {
+  border-top: 1px solid #7e858e;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.transactions {
+  color: #334155;
+  font-size: 10px;
+}
+.button {
+  border: none;
+  background-color: transparent;
+}
+.delete-btn {
+  height: 10px;
+  width: 10px;
+}

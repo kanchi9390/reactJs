@@ -1,0 +1,51 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+.dark-nav-bg {
+  background-color: #333333;
+}
+
+.light-nav-bg {
+  background-color: #ffffff;
+}
+.dark-text {
+  color: #ffffff;
+}
+
+.light-text {
+  color: #000000;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
+.logos {
+  height: 45px;
+  width: 45px;
+}
+.break-line {
+  width: 100vw;
+  border: 0.9px solid;
+}
+
+.light-line {
+  color: #333333;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.route-item {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: bold;
+}

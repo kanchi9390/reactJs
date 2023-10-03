@@ -1,0 +1,41 @@
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+.money-card {
+  padding: 10px;
+  display: flex;
+  border: 1px solid;
+  border-radius: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+}
+.card1 {
+  border-color: #84cc16;
+  background-color: #ecfccb;
+}
+.card2 {
+  border-color: #06b6d4;
+  background-color: #cffafe;
+}
+.card3 {
+  border-color: #7c3aed;
+  background-color: #ede9fe;
+}
+.money-img {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.title {
+  color: #7e858e;
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+.amount {
+  color: #334155;
+  font-size: 14px;
+  margin-top: 4px;
+}

@@ -1,0 +1,99 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.logo-container {
+  display: flex;
+}
+.commenter-container {
+  display: flex;
+  align-items: center;
+}
+
+.like-del-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.initial-container {
+  height: 35px;
+  width: 95px;
+  border: 0px solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.user-name {
+  margin-right: 5px;
+  color: #334155;
+}
+.time {
+  color: #94a3b8;
+  font-size: 12px;
+}
+.comment {
+  color: #64748b;
+  font-size: 13px;
+  margin: 0px;
+}
+.bg-blue {
+  color: #0ea5e9;
+  margin-left: 5px;
+}
+.bg-white {
+  color: #7e858e;
+  margin-left: 5px;
+}
+.button1 {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .initial-container {
+    width: 55px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    font-size: 16px;
+    margin-right: 10px;
+    width: 35px;
+  }
+  .comment {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,36 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+.heading {
+  font-family: 'Lobster';
+  color: #0f172a;
+}
+.languages-item-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 45vw;
+}
+.repo-items-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-img {
+  width: 50vw;
+}
+.failure-p {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+}

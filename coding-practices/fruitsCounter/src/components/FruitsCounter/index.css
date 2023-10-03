@@ -1,0 +1,55 @@
+.bg-container {
+  background-color: #ffd569;
+  padding: 40px;
+  height: 100vh;
+}
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+}
+span {
+  color: #ffd569;
+}
+.images {
+  height: 60vh;
+  width: 38vw;
+}
+.eat-btn {
+  color: #ffffff;
+  background-color: #007bff;
+  height: 33px;
+  width: 155px;
+  padding: 4px;
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.btn-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-container {
+    flex-direction: row;
+  }
+}

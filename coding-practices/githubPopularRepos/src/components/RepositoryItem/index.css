@@ -1,0 +1,33 @@
+.repo-item-container {
+  background-color: #f8f8ff;
+  border: none;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin: 10px;
+  width: 27vw;
+}
+.avatar-img {
+  width: 70px;
+  height: 70px;
+}
+.repo-heading {
+  color: #e73959;
+  font-size: 24px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+}
+.counts {
+  color: #1e293b;
+  font-size: 17px;
+}

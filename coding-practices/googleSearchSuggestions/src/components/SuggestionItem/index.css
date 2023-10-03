@@ -1,0 +1,17 @@
+.suggestion-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+.suggestion {
+  color: #475569;
+  font-size: 12px;
+}
+
+.arrow {
+  height: 15px;
+  cursor: pointer;
+  outline: none;
+}

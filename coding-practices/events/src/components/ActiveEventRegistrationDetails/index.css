@@ -1,0 +1,43 @@
+.no-event-heading {
+  color: #64748b;
+  font-size: 16px;
+  text-align: center;
+}
+.activity-container {
+  padding: 20px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  text-align: center;
+  width: 35vw;
+  font-family: 'Roboto';
+}
+.activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.yet-to-reg-img {
+  width: 28vw;
+}
+
+.yet-to-reg-p {
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 400;
+}
+.register-btn {
+  background-color: #0967d2;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  width: 190px;
+  height: 35px;
+}
+.registered-img {
+  width: 10vw;
+}
+.registered-heading {
+  color: #323f4b;
+  font-size: 20px;
+}

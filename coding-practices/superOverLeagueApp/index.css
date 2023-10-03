@@ -1,0 +1,17 @@
+.bg-container {
+  background-color: #0f172a;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: white;
+  font-size: 40px;
+  font-family: Roboto;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}

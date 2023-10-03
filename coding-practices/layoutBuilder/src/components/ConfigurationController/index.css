@@ -1,0 +1,25 @@
+.controller-container {
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: #475569;
+  font-family: 'Roboto';
+  text-align: left;
+}
+
+.controller-heading {
+  color: #ffffff;
+}
+
+.input-label {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-container {
+    padding-left: 90px;
+  }
+}

@@ -1,0 +1,43 @@
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.search-item-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto';
+}
+
+.time {
+  font-size: 10px;
+  color: #475569;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 20px;
+  margin: 5px;
+}
+
+.title {
+  font-size: 10px;
+  color: #475569;
+  font-weight: bold;
+}
+
+.domain-url {
+  font-size: 10px;
+  color: #64748b;
+  margin-left: 5px;
+}
+.button {
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffffff;
+}

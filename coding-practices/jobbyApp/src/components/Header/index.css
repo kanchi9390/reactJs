@@ -1,0 +1,141 @@
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: #272727;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content {
+    padding: 23px 42px;
+  }
+}
+
+.nav-bar-mobile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-container {
+    display: none;
+  }
+}
+
+.nav-bar-large-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-bar-large-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  width: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 115px;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-menu-list-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.nav-menu-item {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.nav-menu-item-mobile {
+  margin: 0px;
+  cursor: pointer;
+}
+
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 12px;
+  padding: 8px 24px;
+  color: #ffffff;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-desktop-btn {
+    display: none;
+  }
+}
+.nav-mobile-btn-container {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.nav-mobile-btn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-btn {
+    display: none;
+  }
+}
+
+.nav-bar-image {
+  font-size: 25px;
+  color: #ffffff;
+  margin-left: 20px;
+}

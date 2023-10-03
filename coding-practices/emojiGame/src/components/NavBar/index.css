@@ -1,0 +1,28 @@
+/* Write your code here. */
+.navbar {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.navbar1 {
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.logo {
+  height: 35px;
+  width: 35px;
+}
+.navbar-score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.score {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}

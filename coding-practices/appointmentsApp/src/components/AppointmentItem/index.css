@@ -1,0 +1,36 @@
+.appointment-container {
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  padding: 9px;
+  margin: 10px;
+  width: 80vw;
+}
+.star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  background-color: transparent;
+  border: 0px solid;
+}
+.button {
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.title {
+  color: #171f46;
+  margin: 0px;
+}
+
+.date {
+  color: #b5b7c4;
+  font-size: 14px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-container {
+    width: 20vw;
+  }
+}
